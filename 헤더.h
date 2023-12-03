@@ -11,11 +11,11 @@ int searchRestaurant(void);
 int reviewResister(void);
 
 int rankingPrograme(void);
-int rankingprogram(void);//¼öÁ¤ ÄÚµå ¿©±â°¡ ÃÖ½Å
+int rankingprogram(void);
 
 int add(void);
 
-char file_name[100][MAX];// ÆÄÀÏ¸í ÀúÀåµÈ ¹è¿­ ÆÄÀÏ ºÒ·¯ ¿Ã ¶§ »ç¿ë ( ¿¹½Ã arirang.txt, subway.txt µîµî)
-char restaurant_name[100][MAX]; // ½Ä´ç ÀÌ¸§ ÀúÀåµÈ ¹è¿­
-int total_restaurant_count;// ÃÑ µî·ÏµÈ ½Ä´çÀÇ ¼ö
+char file_name[100][MAX];// íŒŒì¼ëª… ì €ì¥ëœ ë°°ì—´ íŒŒì¼ ë¶ˆëŸ¬ ì˜¬ ë•Œ ì‚¬ìš© ( ì˜ˆì‹œ arirang.txt, subway.txt ë“±ë“±)
+char restaurant_name[100][MAX]; // ì‹ë‹¹ ì´ë¦„ ì €ì¥ëœ ë°°ì—´
+int total_restaurant_count;// ì´ ë“±ë¡ëœ ì‹ë‹¹ì˜ ìˆ˜
 
